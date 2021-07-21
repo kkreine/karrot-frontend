@@ -376,6 +376,8 @@ export default {
       this.newActivity = {
         activityType,
         maxParticipants: 2,
+        maxOpenParticipants: null,
+        requireRole: null,
         description: '',
         date,
         dateEnd: addSeconds(date, defaultDuration),
